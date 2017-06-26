@@ -1,5 +1,5 @@
 
-for(var i = 1; i <= 100; i + 1){
+for(var i = 1; i <= 100; i++){
   var number = i;
   var message;
   
