@@ -21,5 +21,5 @@ for(var i = 1; i <= 100; i++){
     message = number;
   }
   
-  document.write("Number:" + message);
+  document.write("Number:" + message \n);
 }
