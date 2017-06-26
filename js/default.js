@@ -2,21 +2,23 @@ ver anser = parsInt(windw.prompt('FizzBuzzの回数を入力して！'));
 
 for(var i = 1; i <= answer; i++){
   var number = i;
-  var decision3 = number, Decision5;
+  var decision;
   var flag3 = 0, flag5 = 0;
   var message;
   
   //条件内の数字かどうか判断
   //3の倍数？
+  dicision = number;
   do{
     dicision /= 3;
     if(dicsion === 1){
       flag3 = 1;
     }
   }while(dicision <= 1)
+    
   //5の倍数？
+  dicision = number;
   do{
-    dicision = number;
     dicision /= 5;
     if(dicsion === 1){
       flag5 = 1;
