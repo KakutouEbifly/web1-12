@@ -23,7 +23,7 @@ for(var i = 1; i <= answer; i++){
     if(dicision === 1){
       flag5 = 1;
     }
-  }while(dicsion <= 1);
+  }while(dicision <= 1);
   
   //条件内の倍数であったときの処理
   if(flag3 === 1 || flag5 === 1){
