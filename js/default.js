@@ -1,6 +1,6 @@
-var answer = parseInt(window.prompt('FizzBuzzの回数を入力して！'));
+//var answer = parseInt(window.prompt('FizzBuzzの回数を入力して！'));
 
-for(var i = 1; i <= answer; i++){
+for(var i = 1; i <= 100/*answer*/; i++){
   var number = i;
   var decision;
   var flag3 = 0, flag5 = 0;
