@@ -1,4 +1,4 @@
-ver anser = parsInt(windw.prompt('FizzBuzzの回数を入力して！'));
+ver answer = parseInt(windw.prompt('FizzBuzzの回数を入力して！'));
 
 for(var i = 1; i <= answer; i++){
   var number = i;
