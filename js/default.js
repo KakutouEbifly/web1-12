@@ -11,7 +11,7 @@ for(var i = 1; i <= answer; i++){
   dicision = number;
   do{
     dicision /= 3;
-    if(dicsion === 1){
+    if(dicision === 1){
       flag3 = 1;
     }
   }while(dicision <= 1)
@@ -20,7 +20,7 @@ for(var i = 1; i <= answer; i++){
   dicision = number;
   do{
     dicision /= 5;
-    if(dicsion === 1){
+    if(dicision === 1){
       flag5 = 1;
     }
   }while(dicsion <= 1);
